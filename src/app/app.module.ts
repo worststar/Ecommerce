@@ -10,8 +10,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { FilterPipe } from './shared/filter.pipe';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { LoaderComponent } from './loader/loader.component';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +17,6 @@ import { LoaderComponent } from './loader/loader.component';
     ProductsComponent,
     CartComponent,
     FilterPipe,
-    LoaderComponent,
   ],
   imports: [
     BrowserModule,
